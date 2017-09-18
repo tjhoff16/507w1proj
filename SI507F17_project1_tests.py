@@ -124,6 +124,5 @@ class Problem1(unittest.TestCase):
         ss = show_song()
         ss1 = show_song('running')
         self.assertIsInstance(ss, helper_functions.Song)
-        self.assertNotEqual(ss, ss1)
 
 unittest.main(verbosity=2)
